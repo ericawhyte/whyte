@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #FCCACB;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+/* pink color #FCCACB */
+
+/* pink gradient diagonal css */
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffe7e5+0,fccacb+44,c99590+73,fccacb+86,ffe7e5+100;pink+metal */
+background: #ffe7e5; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #ffe7e5 0%, #fccacb 44%, #c99590 73%, #fccacb 86%, #ffe7e5 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #ffe7e5 0%,#fccacb 44%,#c99590 73%,#fccacb 86%,#ffe7e5 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #ffe7e5 0%,#fccacb 44%,#c99590 73%,#fccacb 86%,#ffe7e5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe7e5', endColorstr='#ffe7e5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
+/* pink gradient diagonal scss */
+// Needs latest Compass, add '@import "compass"' to your scss
+// Permalink - use to edit and share this gradient:
+// http://colorzilla.com/gradient-editor/#ffe7e5+0,fccacb+44,c99590+73,fccacb+86,ffe7e5+100;pink+metal
+background-color: #ffe7e5; // Old browsers
+@include filter-gradient(#ffe7e5, #ffe7e5, horizontal); // IE6-9 fallback on horizontal gradient
+@include background-image(linear-gradient(left top, #ffe7e5 0%,#fccacb 44%,#c99590 73%,#fccacb 86%,#ffe7e5 100%));
+
+/* pink gradient vertical css */
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffe7e5+0,fccacb+44,c99590+73,fccacb+86,ffe7e5+100 */
+background: #ffe7e5; /* Old browsers */
+background: -moz-linear-gradient(top, #ffe7e5 0%, #fccacb 44%, #c99590 73%, #fccacb 86%, #ffe7e5 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #ffe7e5 0%,#fccacb 44%,#c99590 73%,#fccacb 86%,#ffe7e5 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #ffe7e5 0%,#fccacb 44%,#c99590 73%,#fccacb 86%,#ffe7e5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe7e5', endColorstr='#ffe7e5',GradientType=0 ); /* IE6-9 */
+
+/*pink gradient vertical scss*/
+// Needs latest Compass, add '@import "compass"' to your scss
+// Permalink - use to edit and share this gradient:
+// http://colorzilla.com/gradient-editor/#ffe7e5+0,fccacb+44,c99590+73,fccacb+86,ffe7e5+100
+background-color: #ffe7e5; // Old browsers
+@include filter-gradient(#ffe7e5, #ffe7e5, vertical); // IE6-9
+@include background-image(linear-gradient(top, #ffe7e5 0%,#fccacb 44%,#c99590 73%,#fccacb 86%,#ffe7e5 100%));
