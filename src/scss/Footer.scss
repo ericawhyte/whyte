@@ -1,0 +1,17 @@
+.Footer {
+  background-color: rgba(253, 228, 229, 1);
+  // background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,249,249,1) 23%, rgba(253,228,229,1) 100%);
+  // background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,249,249,1) 23%,rgba(253,228,229,1) 100%);
+  // background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,249,249,1) 23%,rgba(253,228,229,1) 100%);
+  // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#fde4e5',GradientType=0 );
+  background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(254,243,243,1) 23%, rgba(252,202,203,1) 100%);
+  background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(254,243,243,1) 23%,rgba(252,202,203,1) 100%);
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(254,243,243,1) 23%,rgba(252,202,203,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#fccacb',GradientType=0 );
+  height: 70px;
+  padding: 20px;
+  width: 100%;
+  color: white;
+  position: absolute;
+  bottom: 0;
+}

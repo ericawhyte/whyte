@@ -1,0 +1,12 @@
+.Footer {
+  background-color: #fde4e5;
+  background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, #fef3f3 23%, #fccacb 100%);
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, #fef3f3 23%, #fccacb 100%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #fef3f3 23%, #fccacb 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#fccacb',GradientType=0 );
+  height: 70px;
+  padding: 20px;
+  width: 100%;
+  color: white;
+  position: absolute;
+  bottom: 0; }
