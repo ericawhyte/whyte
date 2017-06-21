@@ -1,11 +1,13 @@
 import React, {Component} from 'react';
-import '../scss/Nav.css';
+import '../css/Nav.css';
+import logo from '../img/ew-logo-about.png'
 
 class Nav extends Component {
   render() {
     return (
       <div className="Nav">
         <nav>
+          <a className="logo-anchor" href="/"><img src={logo} /></a>
           <div>
               <a className ="material-icons" href="#">face</a>
               <ul>

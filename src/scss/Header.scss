@@ -15,11 +15,11 @@
     left: -37px;
     top: 0px;
     height: 60px;
-    width: 110%;
+    width: calc(100vw + 37px);
     background-image:
       repeating-linear-gradient(120deg, rgba(0,0,0,.1), rgba(0,0,0,.1) 3px, transparent 1px, transparent 60px),
       repeating-linear-gradient(60deg, rgba(0,0,0,.1), rgba(0,0,0,.1) 3px, transparent 1px, transparent 60px);
     background-size: 70px 120px;
     align-items: stretch;
-  }  
+  }
 }
