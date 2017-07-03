@@ -1,7 +1,7 @@
-.Body {
+.Work {
   color: #000000;
   // margin-top: 40px;
-  overflow: hidden;
+  // overflow: hidden;
 
   .Container {
     display: flex;
@@ -13,8 +13,11 @@
       flex-wrap: wrap;
       max-width: 630px;
       height: 630px;
-      transform: rotateX(65deg) rotateY(0deg) rotateZ(45deg);
+      transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
       transform-style: preserve-3d;
+      @media (min-width: 900px) {
+        transform: rotateX(65deg) rotateY(0deg) rotateZ(45deg);
+      }
 
       .title {
         min-height: 150px;

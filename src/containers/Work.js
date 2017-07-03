@@ -1,13 +1,14 @@
 import React, {Component} from 'react';
-import '../css/Body.css';
+import '../css/Work.css';
 
 class Work extends Component {
   render() {
     return (
-      <div className="Container">
-        <div className="Tiles">
-          <div className="title">
-            <p>somtin</p>
+      <div className="Work">
+        <div className="Container">
+          <div className="Tiles">
+            <div className="title">
+              <p>somtin</p>
             </div>
             <div className="title">
               <p>ponies</p>
@@ -35,6 +36,7 @@ class Work extends Component {
             </div>
           </div>
         </div>
+      </div>
     )
   }
 }

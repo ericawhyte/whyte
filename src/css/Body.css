@@ -1,6 +1,5 @@
 .Body {
   color: #000000;
-  margin-top: 40px;
   overflow: hidden; }
   .Body .Container {
     display: flex;

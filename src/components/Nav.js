@@ -9,19 +9,19 @@ class Nav extends Component {
         <nav>
           <a className="logo-anchor" href="/"><img src={logo} /></a>
           <div>
-              <a className ="material-icons" href="#">face</a>
+              <a className ="material-icons" href="/about">face</a>
               <ul>
                   <li>About</li>
               </ul>
           </div>
           <div>
-              <a className ="material-icons" href="#">build</a>
+              <a className ="material-icons" href="/work">build</a>
               <ul>
                   <li>Work</li>
               </ul>
           </div>
           <div>
-              <a className ="material-icons" href="#">lightbulb_outline</a>
+              <a className ="material-icons" href="/experiments">lightbulb_outline</a>
               <ul>
                   <li>Experiments</li>
               </ul>
