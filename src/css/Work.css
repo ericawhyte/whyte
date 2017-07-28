@@ -9,8 +9,11 @@
       flex-wrap: wrap;
       max-width: 630px;
       height: 630px;
-      transform: rotateX(65deg) rotateY(0deg) rotateZ(45deg);
+      transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
       transform-style: preserve-3d; }
+      @media (min-width: 900px) {
+        .Work .Container .Tiles {
+          transform: rotateX(65deg) rotateY(0deg) rotateZ(45deg); } }
       .Work .Container .Tiles .title {
         min-height: 150px;
         margin: 10px;
@@ -23,7 +26,8 @@
         background: -moz-linear-gradient(top, #ffe7e5 0%, #fccacb 44%, #c99590 73%, #fccacb 86%, #ffe7e5 100%);
         background: -webkit-linear-gradient(top, #ffe7e5 0%, #fccacb 44%, #c99590 73%, #fccacb 86%, #ffe7e5 100%);
         background: linear-gradient(to bottom, #ffe7e5 0%, #fccacb 44%, #c99590 73%, #fccacb 86%, #ffe7e5 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe7e5', endColorstr='#ffe7e5',GradientType=0 ); }
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe7e5', endColorstr='#ffe7e5',GradientType=0 );
+        text-decoration: none; }
         .Work .Container .Tiles .title:hover {
           background: #ffe7e5;
           background: -moz-linear-gradient(-45deg, #ffe7e5 0%, #fccacb 44%, #c99590 73%, #fccacb 86%, #ffe7e5 100%);

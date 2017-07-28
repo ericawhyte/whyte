@@ -1,0 +1,21 @@
+$xs-screen: 0
+$sm-screen: 30rem; // 480px
+$md-screen: 37.5rem; // 600px
+$tb-screen: 48rem; // 768px
+$lg-screen: 52.5rem; // 840px
+$xl-screen: 60rem; // 960px
+$xxl-screen: 75rem; // 1200px
+
+
+
+//   xsmall: (min-width: 0),
+//   small: (min-width: 30em),       // 480px
+//   medium: (min-width: 37.5em),    // 600px
+//   ipad: (min-width: 48em),        // 768px
+//   large: (min-width: 52.5em),     // 840px
+//   xlarge: (min-width: 60em),      // 960px
+//   xxlarge: (min-width: 75em)      // 1200px
+
+// @include (xxlarge) {
+// 	width: 1020px;
+// }

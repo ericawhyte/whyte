@@ -7,33 +7,33 @@ class Work extends Component {
       <div className="Work">
         <div className="Container">
           <div className="Tiles">
-            <div className="title">
-              <p>somtin</p>
-            </div>
-            <div className="title">
-              <p>ponies</p>
-            </div>
-            <div className="title">
-              <p>muppets</p>
-            </div>
-            <div className="title">
-              <p>minions</p>
-            </div>
-            <div className="title">
-              <p>winions</p>
-            </div>
-            <div className="title">
-              <p>of</p>
-            </div>
-            <div className="title">
-              <p>running</p>
-            </div>
-            <div className="title">
-              <p>out</p>
-            </div>
-            <div className="title">
-              <p>things</p>
-            </div>
+            <a href="/work/adidas" className="title">
+              <p>Adidas</p>
+            </a>
+            <a href="/work/bcs" className="title">
+              <p>Bayer Crop Science</p>
+            </a>
+            <a href="/work/bfff" className="title">
+              <p>Barrie Fall Fishing Festival</p>
+            </a>
+            <a href="/work/danone" className="title">
+              <p>Danone</p>
+            </a>
+            <a href="/work/gm" className="title">
+              <p>General Motors</p>
+            </a>
+            <a href="/work/mastercard" className="title">
+              <p>Mastercard</p>
+            </a>
+            <a href="/work/td" className="title">
+              <p>TD Bank</p>
+            </a>
+            <a href="/work/vagifem" className="title">
+              <p>Vagifem</p>
+            </a>
+            <a href="/work/wind" className="title">
+              <p>Wind</p>
+            </a>
           </div>
         </div>
       </div>

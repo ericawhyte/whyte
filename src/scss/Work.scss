@@ -32,6 +32,7 @@
         background: -webkit-linear-gradient(top, #ffe7e5 0%,#fccacb 44%,#c99590 73%,#fccacb 86%,#ffe7e5 100%);
         background: linear-gradient(to bottom, #ffe7e5 0%,#fccacb 44%,#c99590 73%,#fccacb 86%,#ffe7e5 100%);
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe7e5', endColorstr='#ffe7e5',GradientType=0 );
+        text-decoration: none;
 
         &:hover {
           background: #ffe7e5;
